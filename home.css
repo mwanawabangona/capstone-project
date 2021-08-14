@@ -12,6 +12,10 @@ body {
   font-family: "lato", sans-serif;
 }
 
+.event-details {
+  padding-bottom: 10%;
+}
+
 p {
   line-height: 1.1rem;
 }
@@ -32,7 +36,7 @@ p {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 100%;
+  width: 112%;
 }
 
 .nav-toggle {
@@ -189,6 +193,7 @@ h3 {
   font-size: 1.12rem;
   color: #fff;
   font-weight: 700;
+  margin-bottom: -5%;
 }
 
 .second-section {
@@ -209,6 +214,7 @@ h3 {
   padding-top: 8%;
   font-size: 2rem;
   margin-bottom: 0;
+  margin-top: 0%;
 }
 
 hr {
@@ -389,6 +395,12 @@ footer {
   margin: 0;
 }
 
+@media screen and (max-width: 780px) {
+  .hamburger #menu {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .nav-toggle {
     display: none;
@@ -471,7 +483,7 @@ footer {
     text-decoration: none;
     border: 2px solid #ec5242;
     border-radius: 4px;
-    font-size: 1.2rem;
+    font-size: 147%;
     font-weight: 700;
     color: #ec5242;
     letter-spacing: 2px;
@@ -492,6 +504,8 @@ footer {
     border: none;
     position: unset;
     background-color: #fff;
+    width: 164%;
+    margin-right: 13%;
   }
 
   .menu-items {

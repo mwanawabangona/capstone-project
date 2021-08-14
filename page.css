@@ -276,6 +276,10 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  .pics {
+    display: flex;
+  }
+
   .nav-toggle {
     display: none;
   }
@@ -489,6 +493,7 @@ footer {
 
   .partners-section {
     display: none;
+    width: 100%;
   }
 
   .partners-heading {
